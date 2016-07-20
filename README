@@ -1,0 +1,13 @@
+CCOMP
+
+Copyright (c) 2006 Piotr Rotkiewicz
+
+CCOMP is a simple command-line tool for comparing ligand/receptor complexes.
+
+The program can also be used for calculating pairwise all-atom RMSD of slightly
+different protein structures, taking care of missing atoms, sequence
+inconsistencies, etc. CCOMP reads two files in PDB format, including both
+a receptor and a ligand, computes a pairwise sequence alignment of the receptor
+molecules, generates alpha-carbon superposition of the receptor structures
+according to the generated alignment, and computes individual deviations per
+residue. Additionally, several statistical measures are calculated.
